@@ -2426,7 +2426,6 @@ input[type="button"].btn-block {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
   z-index: 1000;
   display: none;
   float: left;
@@ -3333,7 +3332,8 @@ input[type="button"].btn-block {
     .navbar-expand-sm .navbar-nav {
       flex-direction: row; }
       .navbar-expand-sm .navbar-nav .dropdown-menu {
-        position: absolute; }
+        position: absolute;
+        right: 0 !important; }
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem; }
@@ -3359,7 +3359,8 @@ input[type="button"].btn-block {
     .navbar-expand-md .navbar-nav {
       flex-direction: row; }
       .navbar-expand-md .navbar-nav .dropdown-menu {
-        position: absolute; }
+        position: absolute;
+        right: 0 !important; }
       .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem; }
@@ -3385,7 +3386,8 @@ input[type="button"].btn-block {
     .navbar-expand-lg .navbar-nav {
       flex-direction: row; }
       .navbar-expand-lg .navbar-nav .dropdown-menu {
-        position: absolute; }
+        position: absolute;
+        right: 0 !important; }
       .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem; }
@@ -3411,7 +3413,8 @@ input[type="button"].btn-block {
     .navbar-expand-xl .navbar-nav {
       flex-direction: row; }
       .navbar-expand-xl .navbar-nav .dropdown-menu {
-        position: absolute; }
+        position: absolute;
+        right: 0 !important; }
       .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem; }
@@ -3434,7 +3437,8 @@ input[type="button"].btn-block {
   .navbar-expand .navbar-nav {
     flex-direction: row; }
     .navbar-expand .navbar-nav .dropdown-menu {
-      position: absolute; }
+      position: absolute;
+      right: 0 !important; }
     .navbar-expand .navbar-nav .nav-link {
       padding-right: 1rem;
       padding-left: 1rem; }
@@ -13045,7 +13049,7 @@ textarea[resize="horizontal"] {
       display: block;
       height: 16px;
       width: 16px;
-      left: 5px;
+      right: 22px;
       position: absolute;
       bottom: 100%;
       transform: rotate(-45deg) translateY(1rem);
