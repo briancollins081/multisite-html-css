@@ -472,8 +472,8 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 60px;
+  padding-left: 60px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -491,8 +491,8 @@ pre {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 60px;
+  padding-left: 60px;
   margin-right: auto;
   margin-left: auto; }
 
@@ -10628,7 +10628,7 @@ main {
     transition: all 0.15s ease;
     z-index: 100; }
   .blur--hover:hover .blur-item {
-    opacity: .8;
+    opacity: 0.8;
     filter: blur(10px);
     transform: scale(0.95);
     z-index: 1; }
@@ -15447,8 +15447,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .example-container {
   width: 800px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 60px;
+  padding-left: 60px;
   margin-right: auto;
   margin-left: auto; }
 
@@ -16480,5 +16480,14 @@ pre > code.highlight {
   .scrollbar-inner .scroll-element.scroll-x {
     height: 3px;
     bottom: 0; }
+
+.b-red {
+  border: 2px solid red !important; }
+
+.b-blue {
+  border: 2px solid blue !important; }
+
+.b-green {
+  border: 2px solid green !important; }
 
 /*# sourceMappingURL=argon-design-system.css.map */
