@@ -16520,6 +16520,16 @@ pre > code.highlight {
 .nav-pills-fixed-width {
   width: 920px; }
 
+.templateWrapper img {
+  max-height: 180px; }
+
+.transform-none,
+.btn-inner--text.transform-none {
+  text-transform: none !important; }
+
+.customWidgetsWrapper > a > div.icon > i.ni {
+  font-size: 2rem !important; }
+
 .nav-pills-fixed-width {
   width: 920px; }
 
