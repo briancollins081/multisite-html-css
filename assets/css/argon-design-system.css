@@ -16494,4 +16494,45 @@ pre > code.highlight {
 .b-green {
   border: 2px solid green !important; }
 
+.nav-pills-circle .nav-link {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  line-height: 50px;
+  border-radius: 50%;
+  box-shadow: 1px 0px 3px 0px rgba(191, 191, 191, 0.75); }
+
+.nav-pills-circle .nav-link.active {
+  border: 2px solid #655AF3;
+  color: #655AF3;
+  background-color: transparent;
+  box-shadow: none; }
+  .nav-pills-circle .nav-link.active .nav-link-icon * {
+    color: #655AF3; }
+
+.nav-pills-circle .nav-link.active + .nav-link-inner--text {
+  color: #655AF3; }
+
+.nav-pills-circle .nav-link-icon i, .nav-pills-circle .nav-link-icon svg {
+  font-size: 1rem; }
+
+.nav-pills-fixed-width {
+  width: 920px; }
+
+.nav-pills-fixed-width {
+  width: 920px; }
+
+@media (max-width: 1199.98px) {
+  .nav-pills-fixed-width {
+    width: 920px; } }
+
+@media (max-width: 991.98px) {
+  .nav-pills-fixed-width {
+    width: 460px; } }
+
+@media (max-width: 767.98px) {
+  .nav-pills-fixed-width {
+    width: 280px; } }
+
 /*# sourceMappingURL=argon-design-system.css.map */

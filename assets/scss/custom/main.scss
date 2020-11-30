@@ -1,1 +1,55 @@
 @import "utilities/borders";
+
+.nav-pills-circle {
+  .nav-link {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 0px 3px 0px rgba(191, 191, 191, 0.75);
+  }
+  .nav-link.active {
+    border: 2px solid $primary;
+    color: $primary;
+    background-color: transparent;
+    box-shadow: none;
+    .nav-link-icon * {
+      color: $primary;
+    }
+  }
+  .nav-link.active + .nav-link-inner--text {
+    color: $primary;
+  }
+
+  .nav-link-icon {
+    i,
+    svg {
+      font-size: 1rem;
+    }
+  }
+}
+.nav-pills-fixed-width {
+  width: 920px;
+}
+@include media-breakpoint-down(xl) {
+  .nav-pills-fixed-width {
+    width: 920px;
+  }
+}
+@include media-breakpoint-down(lg) {
+  .nav-pills-fixed-width {
+    width: 920px;
+  }
+}
+@include media-breakpoint-down(md) {
+  .nav-pills-fixed-width {
+    width: 460px;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .nav-pills-fixed-width {
+    width: 280px;
+  }
+}
