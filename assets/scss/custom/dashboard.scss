@@ -1,0 +1,21 @@
+@import "utilities/borders";
+@import "utilities/variables";
+.mainDashboardWrapper {
+  & > .sidebar {
+    min-width: $sidebar-width;
+    width: $sidebar-width;
+    position: absolute;
+    left: 0;
+  }
+  & > .main {
+    width: calc(100% - #{$sidebar-width}) !important;
+    position: absolute;
+    right: 0;
+  }
+  .dashboardNavLabel {
+    & > img,
+    svg {
+      height: 40px;
+    }
+  }
+}

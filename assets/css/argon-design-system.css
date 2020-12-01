@@ -16485,23 +16485,13 @@ pre > code.highlight {
     height: 3px;
     bottom: 0; }
 
-.b-red {
-  border: 2px solid red !important; }
-
-.b-blue {
-  border: 2px solid blue !important; }
-
-.b-green {
-  border: 2px solid green !important; }
-
 .nav-pills-circle .nav-link {
   text-align: center;
   height: 50px;
   width: 50px;
   padding: 0;
   line-height: 50px;
-  border-radius: 50%;
-  box-shadow: 1px 0px 3px 0px rgba(191, 191, 191, 0.75); }
+  border-radius: 50%; }
 
 .nav-pills-circle .nav-link.active {
   border: 2px solid #655AF3;
@@ -16544,5 +16534,29 @@ pre > code.highlight {
 @media (max-width: 767.98px) {
   .nav-pills-fixed-width {
     width: 280px; } }
+
+.b-red {
+  border: 2px solid red !important; }
+
+.b-blue {
+  border: 2px solid blue !important; }
+
+.b-green {
+  border: 2px solid green !important; }
+
+.mainDashboardWrapper > .sidebar {
+  min-width: 340px;
+  width: 340px;
+  position: absolute;
+  left: 0; }
+
+.mainDashboardWrapper > .main {
+  width: calc(100% - 340px) !important;
+  position: absolute;
+  right: 0; }
+
+.mainDashboardWrapper .dashboardNavLabel > img,
+.mainDashboardWrapper .dashboardNavLabel svg {
+  height: 40px; }
 
 /*# sourceMappingURL=argon-design-system.css.map */
