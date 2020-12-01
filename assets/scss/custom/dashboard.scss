@@ -8,7 +8,7 @@
     left: 0;
 
     & > .sidebarFlexWrapper {
-        height: calc(100vh - 60px);
+      height: calc(100vh);
       & > .navSection {
         // background-color: green;
         .navEntry {
@@ -33,6 +33,22 @@
           }
         }
       }
+      div > a.help-badge {
+        border-radius: 2rem;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color: #f3f3f3;
+        height: 2.4rem;
+        width: 5.4rem;
+        div {
+          font-size: small;
+        }
+        .badge-xs {
+          width: 1.6rem;
+          height: 1.6rem;
+          opacity: 0.5;
+        }
+      }
     }
   }
   & > .main {
@@ -46,4 +62,9 @@
       height: 40px;
     }
   }
+}
+
+.listBadge{
+    height: 2.3rem;
+    width: 2.3rem;
 }

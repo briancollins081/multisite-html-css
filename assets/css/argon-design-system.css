@@ -16550,7 +16550,7 @@ pre > code.highlight {
   position: absolute;
   left: 0; }
   .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper {
-    height: calc(100vh - 60px); }
+    height: calc(100vh); }
     .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry {
       padding: 15px 10px;
       border-radius: 4px; }
@@ -16566,6 +16566,19 @@ pre > code.highlight {
         background-color: #f3f3f3; }
         .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry.active .navText {
           color: #655AF3; }
+    .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper div > a.help-badge {
+      border-radius: 2rem;
+      padding-left: 8px;
+      padding-right: 8px;
+      background-color: #f3f3f3;
+      height: 2.4rem;
+      width: 5.4rem; }
+      .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper div > a.help-badge div {
+        font-size: small; }
+      .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper div > a.help-badge .badge-xs {
+        width: 1.6rem;
+        height: 1.6rem;
+        opacity: 0.5; }
 
 .mainDashboardWrapper > .main {
   width: calc(100% - 340px) !important;
@@ -16575,5 +16588,9 @@ pre > code.highlight {
 .mainDashboardWrapper .dashboardNavLabel > img,
 .mainDashboardWrapper .dashboardNavLabel svg {
   height: 40px; }
+
+.listBadge {
+  height: 2.3rem;
+  width: 2.3rem; }
 
 /*# sourceMappingURL=argon-design-system.css.map */
