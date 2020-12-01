@@ -16549,6 +16549,23 @@ pre > code.highlight {
   width: 340px;
   position: absolute;
   left: 0; }
+  .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper {
+    height: calc(100vh - 60px); }
+    .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry {
+      padding: 15px 10px;
+      border-radius: 4px; }
+      .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry .navigationIcon {
+        width: 30px; }
+        .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry .navigationIcon > svg {
+          height: 100%;
+          width: 100%; }
+      .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry .navText {
+        font-size: medium !important;
+        font-weight: 600; }
+      .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry.active {
+        background-color: #f3f3f3; }
+        .mainDashboardWrapper > .sidebar > .sidebarFlexWrapper > .navSection .navEntry.active .navText {
+          color: #655AF3; }
 
 .mainDashboardWrapper > .main {
   width: calc(100% - 340px) !important;

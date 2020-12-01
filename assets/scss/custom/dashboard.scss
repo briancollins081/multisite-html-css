@@ -6,6 +6,34 @@
     width: $sidebar-width;
     position: absolute;
     left: 0;
+
+    & > .sidebarFlexWrapper {
+        height: calc(100vh - 60px);
+      & > .navSection {
+        // background-color: green;
+        .navEntry {
+          padding: 15px 10px;
+          border-radius: 4px;
+          .navigationIcon {
+            width: 30px;
+            & > svg {
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .navText {
+            font-size: medium !important;
+            font-weight: 600;
+          }
+          &.active {
+            background-color: #f3f3f3;
+            .navText {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
   }
   & > .main {
     width: calc(100% - #{$sidebar-width}) !important;
