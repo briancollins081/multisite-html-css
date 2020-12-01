@@ -16517,8 +16517,20 @@ pre > code.highlight {
 .btn-inner--text.transform-none {
   text-transform: none !important; }
 
-.customWidgetsWrapper > a > div.icon > i.ni {
-  font-size: 2rem !important; }
+.customWidgetsWrapper > a {
+  width: 100px;
+  border-radius: 4px; }
+  .customWidgetsWrapper > a > div.icon > i.ni {
+    font-size: 1.2rem !important; }
+  .customWidgetsWrapper > a > .small {
+    font-size: 0.5rem !important; }
+
+.almostBtn {
+  width: calc(100% - 20%); }
+
+.form-group > * {
+  background-color: #cad1d7d0 !important;
+  border-color: #cad1d7d0; }
 
 .nav-pills-fixed-width {
   width: 920px; }
@@ -16592,5 +16604,8 @@ pre > code.highlight {
 .listBadge {
   height: 2.3rem;
   width: 2.3rem; }
+
+.card.no-border {
+  border-color: transparent !important; }
 
 /*# sourceMappingURL=argon-design-system.css.map */
